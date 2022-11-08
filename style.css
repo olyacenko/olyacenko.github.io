@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    margin-top: 25;
+    margin-bottom: 25;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/8f/af/05/8faf05b2a755a5a1d51238313ddc1a0f.png);
+}
+.cv_name{
+    display: flex;
+    width: 1024px;
+    justify-content: center;
+}
+
+.cv_name_title{
+    width: 50%;
+    background-color:rgba(69, 58, 80, 0.31);;
+    padding: 20px;
+    color: white;
+    padding-bottom: 0;
+    padding-right: 0;
+    border-bottom: groove;
+    font-family: 'Playfair Display', serif;
+}
+
+.cv_name_subtitle{
+    width: 45%;
+    background-color: rgba(245, 245, 220, 0.53);
+    padding: 20px;
+    color: black;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 0;
+    border-bottom: groove;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    width: 1024px;
+    justify-content: center;
+}
+
+.leftside{
+    width: 50%;
+    background-color: rgba(69, 58, 80, 0.31);;
+    padding: 20px;
+    color: white;
+    padding-right: 0;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    border-bottom: groove;
+    padding: 20;
+    padding-bottom: 83px;
+    padding-top: 45px;
+    padding-right: 40;
+}
+
+.photo_img{
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+.contacts{
+    padding: 30px;
+    padding-bottom: 0px;
+
+}
+.contacts_title{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.contacts_divider{
+    width: 210px;
+    margin-bottom: 25px;
+
+}
+
+.contacts_details{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.contacts_phone{
+    display: flex;
+
+}
+
+.contacts_phone_logo{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.contacts_telegram{
+    display: flex;
+    
+
+}
+
+.contacts_telegram_logo{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+
+.contacts_email{
+    display: flex;
+}
+
+.contacts_email_logo{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.contacts_linkedin{
+    display: flex;
+}
+
+.contacts_linkedin_logo{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px
+}
+
+.contacts_geo{
+    display: flex;
+}
+
+.contacts_geo_logo{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px
+}
+
+.education{
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.education_title{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.educatuion_divider{
+    width: 210px;
+    margin-bottom: 25px;
+}
+
+.education_details{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.education_logo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 10px
+}
+
+.English{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.English_title{
+font-family: 'Playfair Display', serif;
+}
+
+.English_divider{
+    width: 210px;
+    margin-bottom: 25px;
+}
+
+.English_details{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.rightside{
+    width: 45%;
+    background-color: rgba(245, 245, 220, 0.53);;
+    padding: 20px;
+    color: black;
+    padding-left: 0;
+}
+
+.fio{
+    display: flex;
+    flex-direction: column;
+}
+
+.fio_title{
+    display: flex;
+    justify-content: end;
+    font-family: 'Playfair Display', serif;
+}
+
+.fio_subtitle{
+    display: flex;
+    justify-content: end;
+    font-family: 'Inter', sans-serif;
+}
+
+.fio_divider{
+    margin-left: 250px;
+    width: 220px;
+
+}
+
+#id_fio_subtitle{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 49px;
+}
+
+.about_title{
+    display: flex;
+    justify-content: end;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.about_details{
+    text-align: end;
+    border-bottom: groove;
+    padding-bottom: 11;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    line-height: 120%;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.technical_knowledge_title{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.technical_knowledge_divider{
+    width: 330px;
+}
+
+.technical_knowledge_details{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    line-height: 150%;
+
+}
+
+.technical_knowledge{
+    margin-bottom: 138px;
+    padding-left: 30;
+}
